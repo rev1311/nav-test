@@ -67,3 +67,19 @@ body {
     background-size: 11vmin 11vmin;
     opacity: 0.5;
 }
+
+#menu-container[data-active-index="0"] > #menu-bkg-pattern {
+    background-position: 0% -25%;
+}
+
+#menu-container[data-active-index="1"] > #menu-bkg-pattern {
+    background-position: 0% -50%;
+}
+
+#menu-container[data-active-index="2"] > #menu-bkg-pattern {
+    background-position: 0% -75%;
+}
+
+#menu-container[data-active-index="3"] > #menu-bkg-pattern {
+    background-position: 0% -100%;
+}
