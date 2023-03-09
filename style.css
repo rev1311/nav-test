@@ -83,3 +83,42 @@ body {
 #menu-container[data-active-index="3"] > #menu-bkg-pattern {
     background-position: 0% -100%;
 }
+
+#menu-bkg-image {
+    height: 100%;
+    width: 100%;
+    background-image: url("assets/Empire_logo_skull.png");
+    background-position: center 40%;
+    background-size: 110vmax;
+
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 0;
+
+    opacity: 0.15;
+    transition: opacity 800ms ease,
+        background-size 800ms ease,
+        background-position 800ms ease;
+}
+
+#menu-items:hover ~ #menu-bkg-image {
+    background-size: 100vmax;
+    opacity: 0.10;
+}
+
+#menu-container[data-active-index="0"] > #menu-bkg-image {
+    background-position: center 45%;
+}
+
+#menu-container[data-active-index="1"] > #menu-bkg-image {
+    background-position: center 50%;
+}
+
+#menu-container[data-active-index="2"] > #menu-bkg-image {
+    background-position: center 55%;
+}
+
+#menu-container[data-active-index="3"] > #menu-bkg-image {
+    background-position: center 60%;
+}
