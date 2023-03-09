@@ -58,4 +58,12 @@ body {
     left: 0px;
     top: 0px;
     z-index: 1;
+
+    transition: opacity 800ms ease,
+        background-size 800ms ease;
+}
+
+#menu-items:hover ~ #menu-bkg-pattern {
+    background-size: 11vmin 11vmin;
+    opacity: 0.5;
 }
