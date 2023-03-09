@@ -13,3 +13,31 @@ body {
     height: 100vh;
 }
 
+#menu-container {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+#menu-items {
+    display: flex;
+    flex-direction: column;
+    margin-left: clamp(4rem, 20vw, 48rem);
+}
+
+#menu-items:hover > .menu-item {
+    opacity: 0.3;
+}
+
+#menu-items:hover > .menu-item:hover {
+    opacity: 1;
+}
+
+.menu-item {
+    display: block;
+    color: #fff;
+    font-size: clamp(3rem, 8vw, 8rem);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    padding: clamp(0.25rem, 0.5vw, 1rem);
+}
