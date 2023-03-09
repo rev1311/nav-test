@@ -87,7 +87,7 @@ body {
 #menu-bkg-image {
     height: 100%;
     width: 100%;
-    background-image: url("assets/Empire_logo_skull.png");
+    background-image: url("assets/Empire_brand_logo_Empire_vector_geometric_ac3b3250-f63e-490f-a0b8-5a8ebe2399ca.png");
     background-position: center 40%;
     background-size: 110vmax;
 
@@ -96,7 +96,7 @@ body {
     top: 0px;
     z-index: 0;
 
-    opacity: 0.15;
+    opacity: 0.05;
     transition: opacity 800ms ease,
         background-size 800ms ease,
         background-position 800ms ease;
@@ -104,7 +104,7 @@ body {
 
 #menu-items:hover ~ #menu-bkg-image {
     background-size: 100vmax;
-    opacity: 0.10;
+    opacity: 0.01;
 }
 
 #menu-container[data-active-index="0"] > #menu-bkg-image {
