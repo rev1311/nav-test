@@ -69,19 +69,19 @@ body {
 }
 
 #menu-container[data-active-index="0"] > #menu-bkg-pattern {
-    background-position: 0% -25%;
+    background-position: 0 -25%;
 }
 
 #menu-container[data-active-index="1"] > #menu-bkg-pattern {
-    background-position: 0% -50%;
+    background-position: 0 -50%;
 }
 
 #menu-container[data-active-index="2"] > #menu-bkg-pattern {
-    background-position: 0% -75%;
+    background-position: 0 -75%;
 }
 
 #menu-container[data-active-index="3"] > #menu-bkg-pattern {
-    background-position: 0% -100%;
+    background-position: 0 -100%;
 }
 
 #menu-bkg-image {
