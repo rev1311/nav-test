@@ -59,8 +59,7 @@ body {
     top: 0px;
     z-index: 1;
 
-    transition: opacity 800ms ease,
-        background-size 800ms ease;
+    transition: all 800ms ease;
 }
 
 #menu-items:hover ~ #menu-bkg-pattern {
@@ -69,19 +68,19 @@ body {
 }
 
 #menu-container[data-active-index="0"] > #menu-bkg-pattern {
-    background-position: 0 -25%;
+    background-position: center -25%;
 }
 
 #menu-container[data-active-index="1"] > #menu-bkg-pattern {
-    background-position: 0 -50%;
+    background-position: center -50%;
 }
 
 #menu-container[data-active-index="2"] > #menu-bkg-pattern {
-    background-position: 0 -75%;
+    background-position: center -75%;
 }
 
 #menu-container[data-active-index="3"] > #menu-bkg-pattern {
-    background-position: 0 -100%;
+    background-position: center -100%;
 }
 
 #menu-bkg-image {
@@ -106,7 +105,7 @@ body {
 }
 
 #menu-container[data-active-index="0"] > #menu-bkg-image {
-    background-position: center 45%;
+    background-position: center 25%;
 }
 
 #menu-container[data-active-index="1"] > #menu-bkg-image {
@@ -114,9 +113,9 @@ body {
 }
 
 #menu-container[data-active-index="2"] > #menu-bkg-image {
-    background-position: center 55%;
+    background-position: center 75%;
 }
 
 #menu-container[data-active-index="3"] > #menu-bkg-image {
-    background-position: center 60%;
+    background-position: center 100%;
 }
