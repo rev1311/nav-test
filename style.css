@@ -97,9 +97,7 @@ body {
     z-index: 0;
 
     opacity: 0.05;
-    transition: opacity 800ms ease,
-        background-size 800ms ease,
-        background-position 800ms ease;
+    transition: all 800ms ease;
 }
 
 #menu-items:hover ~ #menu-bkg-image {
